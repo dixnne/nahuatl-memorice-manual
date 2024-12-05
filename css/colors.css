@@ -1,0 +1,76 @@
+#bootstrap-override .red {
+    color: #FF4545;
+}
+
+#bootstrap-override .peach {
+    color: #FF9C73;
+}
+
+#bootstrap-override .yellow {
+    color: #FBD288;
+}
+
+#bootstrap-override .light-yellow {
+    color: #FCF596;
+}
+
+#bootstrap-override .beige {
+    color: #FEF3E2;
+}
+
+#bootstrap-override .bg-red {
+    background-color: #FF4545;
+}
+
+#bootstrap-override .bg-peach {
+    background-color: #FF9C73;
+}
+
+#bootstrap-override .bg-yellow {
+    background-color: #FBD288;
+}
+
+#bootstrap-override .bg-light-yellow {
+    background-color: #FCF596;
+}
+
+#bootstrap-override.bg-beige {
+    background-color: #FEF3E2;
+}
+
+#bootstrap-override .bg-beige {
+    background-color: #FEF3E2;
+}
+
+.bg-colors {
+	background: linear-gradient(-45deg, #FF4545, #FF9C73, #FBD288, #FCF596);
+	background-size: 200% 200%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title {
+    text-shadow: 1px 1px 2px black;
+}
+
+.giant {
+    font-size: 4rem;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
